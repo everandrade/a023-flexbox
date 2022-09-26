@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body{
+  background-color: black;
+}
+
 main{
   display: flex;
   gap: 20px;
@@ -23,16 +27,26 @@ section{
 }
 
 #section-1{
+  flex-grow: 0;
+  order: 1;
 }
 
 #section-2{
+  flex-grow: 2;
+  order: 2;
 }
 
 #section-3{
+  flex-grow: 3;
+  order: 3;
 }
 
 #section-4{
+  flex-basis: 200px;
+  order: 4;
 }
 
 #section-5{
+  flex-grow: 0;
+  order: 0;
 }
