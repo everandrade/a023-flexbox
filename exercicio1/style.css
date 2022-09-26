@@ -16,3 +16,15 @@
   height: 180px;
   width: 180px;
 }
+
+.container {
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
